@@ -1,0 +1,25 @@
+// src/App.scss
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; // Центрируем по вертикали
+  text-align: center;
+  margin-left: 800px;
+
+  h1 {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #000; // Цвет фона кнопки
+    color: #fff; // Цвет текста кнопки
+    border: none;
+    border-radius: 5px;
+  }
+}
